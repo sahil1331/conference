@@ -126,6 +126,22 @@ p a {
 .teaser a:hover h3 {
   color: #0f1010;
 }
+
+.teaser img{
+  max-width: 100%;
+  height: 200px;
+  display: block;
+  margin-bottom:22px ;
+  border-radius: 5px;
+}
+
+.speaker-info img{
+  max-width: 100%;
+  height: 130px;
+  border-radius: 50%;
+  margin: -66px 0 22px 0;
+  vertical-align: top;
+}
 /*
   ========================================
   Clearfix
@@ -243,7 +259,7 @@ nav li{
   border: 1px solid #dfe2e5;
   border-radius: 5px;
   margin-top: 88px;
-  padding: 22px 0;
+  padding-bottom: 22px;
   text-align: center;
 }
 
@@ -251,6 +267,9 @@ nav li{
 .speaker {
   margin-bottom: 44px;
 }
+
+
+
 /*
   ========================================
   Primary footer
