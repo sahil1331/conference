@@ -16,10 +16,11 @@
 */
 
 body{
+  background: #293f50;
   color: #888;
   font-weight: 300;
   font-size: 16px/22px;
-  font-family: "Lato" "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .container{
@@ -31,7 +32,7 @@ body{
 
 h1,h2,h3,h4{
   margin-bottom: 22px;
-  color: #648880;
+  color: #000;
 }
 
 h1 {
@@ -39,10 +40,12 @@ h1 {
   line-height: 44px;
 }
 h2 {
+  color: #648880;
   font-size: 24px;
   line-height: 44px;
 }
 h3 {
+  color: #888;
   font-size: 21px;
   text-transform: uppercase;
 }
@@ -51,7 +54,7 @@ h4 {
 }
 
 h5 {
-  color: #a9b2b9;
+  color: #648880;
   font-size: 14px;
   font-weight: 400;
   
@@ -72,11 +75,11 @@ cite, em {
 */
 
 a:hover {
-  color: #a9b2b9;
+  color: #000000;
 }
 a {
   text-decoration: none;
-  color: #648880;
+  color: #ffffff;
 }
 
 p a {
@@ -84,19 +87,28 @@ p a {
 }
 
 .btn{
-  margin: 0;
-  border-radius:5px;
-
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
   display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
 }
 
-.btn-alt{
-  border: 1px solid #dfe2e5;
-
+.btn-alt {
+  border: 1px solid #fff;
   padding: 10px 30px;
 }
 
+.btn-alt:hover {
+  background: #fff;
+  color: #648880;
+}
+
 .hero{
+  color: #fff;
   line-height: 44px;
   padding: 22px 80px 66px 80px;
   text-align: center;
@@ -112,7 +124,7 @@ p a {
 
 
 .teaser a:hover h3 {
-  color: #a9b2b9;
+  color: #0f1010;
 }
 /*
   ========================================
@@ -133,7 +145,11 @@ p a {
 }
 
 
-
+.row {
+  background: #fff;
+  min-width: 960px;
+  padding: 66px 0 44px 0;
+}
 /*
   ========================================
   Primary Header
@@ -154,6 +170,7 @@ p a {
 .tagline {
   margin: 66px 0 22px 0;
   text-align: right;
+  color: #648880;
 }
 
 
@@ -169,6 +186,15 @@ p a {
   text-align: right;
 }
 
+.primary-header a,
+.primary-footer{
+  color: #fff;
+}
+
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #648880;
+}
 /*
   ========================================
   Primary footer
